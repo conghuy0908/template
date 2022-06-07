@@ -18,6 +18,9 @@ body {
 .nav-item a {
     color: black;
 }
+.nav-link:hover{
+    color: #ffff;
+}
 
 .btn {
     margin-top: 5px;
@@ -76,7 +79,7 @@ body {
 .card{
     border-radius: 20px;
     width: 400px;
-    height: 500px;
+    height: 510px;
     display: inline-block;
     text-align: center;
     margin-top: 50px;
@@ -102,4 +105,7 @@ body {
     font-weight: bold;
     color: rgb(67, 78, 233);
 }
-
+.icon{
+    border-radius: 100%;
+    width: 100%;
+}
