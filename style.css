@@ -1,6 +1,7 @@
 body {
     background: #CAE0EB;
 }
+
 .menu {
     display: flex;
     justify-content: end;
@@ -18,7 +19,8 @@ body {
 .nav-item a {
     color: black;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #ffff;
 }
 
@@ -26,57 +28,76 @@ body {
     margin-top: 5px;
     line-height: 35px;
 }
-.left h1{
+
+.left h1 {
     font-size: 45px;
-    margin-top: 40px;    
-}
-.content{
     margin-top: 40px;
 }
-.text-content{
+
+.content {
+    margin-top: 40px;
+}
+
+.text-content {
     background: #ffff;
     width: 280px;
     color: lightskyblue;
     font-size: 20px;
 }
-.text-writing{
+
+.text-writing {
     width: 450px;
 }
-.ava{
+
+.ava {
     margin-top: 50px;
     border-radius: 8px;
     width: 635px;
     height: auto;
 }
-.number-text{
+
+.number-text {
     margin-top: 50px;
     margin-left: -400px;
 }
-.top,.mid,.bottom{
+
+.top,
+.mid,
+.bottom {
     margin-top: 50px;
 }
-.top h1, .mid h1, .bottom h1{
+
+.top h1,
+.mid h1,
+.bottom h1 {
     color: rgb(51, 114, 233);
     text-align: center;
 }
-.top p, .mid p, .bottom p{
+
+.top p,
+.mid p,
+.bottom p {
     text-align: center;
 }
-.content-2{
+
+.content-2 {
     margin-top: 50px;
     text-align: center;
 }
+
 .text1 {
     font-size: 50px;
     font-weight: bold;
 }
+
 .text2 {
     margin-top: 30px;
     margin-left: 150px;
     width: 70%;
     font-size: 20px;
 }
-.card{
+
+.card {
     border-radius: 20px;
     width: 400px;
     height: 510px;
@@ -85,13 +106,15 @@ body {
     margin-top: 50px;
     margin-left: 25px;
 }
-.card-img-top{
+
+.card-img-top {
     border-radius: 15px;
     width: 380px;
     height: auto;
     margin: 5px auto;
 }
-.text3{
+
+.text3 {
     text-align: center;
     line-height: 37.5px;
     font-size: 20px;
@@ -100,12 +123,70 @@ body {
     width: 250px;
     background: #CAE0EB;
 }
-.text4{
+
+.text4 {
     font-size: 25px;
     font-weight: bold;
     color: rgb(67, 78, 233);
 }
-.icon{
+
+.icon {
     border-radius: 100%;
     width: 100%;
+}
+
+#text5 {
+    margin-top: 50px;
+}
+.item {
+    font-weight: bold;
+    font-size: 45px;
+}
+.items{
+    margin-top: 10px;
+}
+.item1{
+    color: rgb(36, 123, 221);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.item2{
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.logo{
+    margin-top: 10px;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
+.logo h3{
+    display: inline;
+}
+.logo p{
+    margin-top: 5px;
+}
+.text-carocel{
+    margin-top: 50px;
+    text-align: center;
+}
+.text-carocel h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.text-carocel p{
+    margin-top: 20px;
+    width: 650px;
+    margin-left: 250px;
+}
+.carocel{
+    margin-top: 50px;
 }
